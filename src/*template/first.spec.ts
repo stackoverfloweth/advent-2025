@@ -1,0 +1,19 @@
+import { expect, test } from 'vitest'
+import { solve } from './first'
+import { actualInput, exampleInput } from './input'
+
+test('given test input, always return X', () => {
+  const input = exampleInput
+
+  const result = solve(input)
+
+  expect(result).toBe(input.length)
+})
+
+test.skip('given actual input, always return Y', () => {
+  const input = actualInput
+
+  const result = solve(input)
+
+  expect(result).toBe(input.length)
+})
