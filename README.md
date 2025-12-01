@@ -1,3 +1,3 @@
 # advent-template
 
-Typescript solutions for https://adventofcode.com/YYYY/
+Typescript solutions for https://adventofcode.com/2025/
